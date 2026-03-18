@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LensPro Photography</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .hero {
+            background: #007BFF;
+            color: white;
+            padding: 60px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            border-radius: 10px;
+            vertical-align: top;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: gray;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LensPro Photography</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home"class="hero">
+    <h2>Capturing Moments That Matter</h2>
+    <p>Taking photos for events, portraits & more</p>
+    <button onclick="showMessage()">Get Started</button>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>
+        I began my photography journey two years ago, and I'm good at what I do.
+        I also capture beautiful moments of people.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Photography Services</h2>
+
+    <div class="card">
+        <h3>Sports</h3>
+        <p>
+            Capturing sporting moments and achievements to inspire athletes and connect them with fans.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Weddings</h3>
+        <p>Wishing you a lifetime of love and happiness.</p>
+    </div>
+
+    <div class="card">
+        <h3>Birthday Celebrations</h3>
+        <p>
+            A joyful event where family and friends come together to make someone feel special.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <input type="text" placeholder="Arun" /><br /><br />
+    <input type="email" placeholder="arunadams123@gmail.com" /><br /><br />
+    <input type="tel" placeholder="0644089678" /><br /><br />
+    <button onclick="sendMessage()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 LensPro Photography</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Welcome to your website!");
+    }
+
+    function sendMessage() {
+        alert("Message sent! (This is just a demo)");
+    }
+</script>
+
+</body>
+</html>

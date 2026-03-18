@@ -1,0 +1,73 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+background: #222;
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+
+nav a:hover {
+color: yellow;
+}
+
+/* Hero Section */
+.hero {
+background: #007BFF;
+color: white;
+padding: 60px;
+text-align: center;
+}
+
+/* Sections */
+section {
+padding: 40px;
+text-align: center;
+}
+
+/* Cards */
+.card {
+display: inline-block;
+background: #f4f4f4;
+padding: 20px;
+margin: 10px;
+width: 200px;
+border-radius: 10px;
+}
+
+/* Buttons */
+button {
+padding: 10px 20px;
+border: none;
+background: black;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background: gray;
+}
+
+/* Inputs */
+input {
+padding: 10px;
+width: 200px;
+}
+
+/* Footer */
+footer {
+background: #222;
+color: white;
+padding: 10px;
+text-align: center;
+}
